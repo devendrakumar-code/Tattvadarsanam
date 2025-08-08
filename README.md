@@ -1,2 +1,2 @@
-# Tattvadar-anam-
+# Tattvadarsanam 
 Discover. Create. Illuminate.
