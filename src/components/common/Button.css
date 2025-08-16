@@ -1,0 +1,45 @@
+```css
+.btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+/* Primary Button Style */
+.btn.primary {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.btn.primary:hover:not(:disabled) {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Secondary Button Style (optional for now, but good practice) */
+.btn.secondary {
+  background-color: transparent;
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn.secondary:hover:not(:disabled) {
+  background-color: rgba(0, 123, 255, 0.1);
+}
+```
