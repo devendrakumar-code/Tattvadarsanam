@@ -53,3 +53,27 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+
+# Dependencies
+node_modules/
+*/node_modules/
+**/node_modules/
+.pnpm/
+
+# Production builds  
+/frontend/build/
+/frontend/.next/
+/backend/dist/
+
+# Environment files
+.env
+.env.local
+*.env
+
+# Logs
+*.log
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db

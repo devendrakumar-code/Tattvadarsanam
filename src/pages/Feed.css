@@ -1,0 +1,46 @@
+```css
+.feed-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.feed-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.end-of-feed {
+  text-align: center;
+  color: #888;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.like-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.like-button.liked::after {
+  content: '❤️';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: heart-burst 0.5s forwards;
+}
+
+@keyframes heart-burst {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -150%) scale(1.5);
+    opacity: 0;
+  }
+}
+```

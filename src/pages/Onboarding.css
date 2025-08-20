@@ -1,0 +1,62 @@
+```css
+.onboarding-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+  text-align: center;
+}
+
+.onboarding-step {
+  animation: fadeIn 0.5s ease-in-out;
+  width: 90%;
+  max-width: 400px;
+}
+
+.onboarding-step h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.onboarding-step p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.onboarding-step input {
+  width: calc(100% - 30px); /* Account for padding */
+  margin-bottom: 20px;
+}
+
+.reward-text {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.reward-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 20px;
+  text-align: left;
+}
+
+.reward-list li {
+  background: #e9ecef;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+```
